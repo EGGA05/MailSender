@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <img class="imagen" src="Fondo negro.png">
+        
+        <form action="enviar_correo.php" method="post">
+            <label for="remitente">Correo electrónico del remitente:</label>
+            <input type="email" id="remitente" name="remitente"><br><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="10" cols="50"></textarea><br><br>
+            <input type="submit" value="Enviar correo">
+        </form>
+    </body>
+</html>

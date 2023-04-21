@@ -1,0 +1,58 @@
+body {
+    background-image: url(Banner2.png);
+  }
+  
+  * {
+    font-family: Raleway;
+  }
+  
+  form {
+    width: 510px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    padding-left: 15px;
+  }
+  
+  form h2 {
+    text-align: center;
+  }
+  
+  form label {
+    color: black;
+    font-size: 14px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    width: 476px;
+    height: 33px;
+    border-radius: 8px;
+    border-style: double;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button[type="submit"] {
+    font-size: 16px;
+    border-radius: 8px;
+    width: 476px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  form .link {
+    color: #b2b1b2;
+  }

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <img class="imagen" src="Fondo negro.png">
+        
+        <form action="sendgrid.php" method="post">
+            <label for="from">escribe tu correo electronico:</label>
+            <input type="email" id="from" name="from" required>
+            <br>
+            <label for="body">describe tu peticion:</label>
+            <br>
+            <textarea id="body" name="body" rows="10" cols="50" required></textarea>
+            <br>
+            <button type="submit">Enviar peticion</button>
+        </form>
+    </body>
+</html>
